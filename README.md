@@ -1,1 +1,2 @@
-# image-viewer
+# visor-imagenes
+Visor de imagenes para catalogo
