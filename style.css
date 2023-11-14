@@ -8,7 +8,7 @@ body {
 }
 .swiper-container {
     width: 100%;
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 50px;
 }
 
@@ -23,7 +23,7 @@ body {
     margin: 0;
     padding-top: 15px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     text-align: center;
     width: 100%;
     height: 30px; /*60px*/
@@ -31,6 +31,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    display: block;
 }
 
 .info span{
