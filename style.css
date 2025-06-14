@@ -1,25 +1,29 @@
 body {
     background: rgb(53, 52, 52);
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family:
+        Helvetica Neue,
+        Helvetica,
+        Arial,
+        sans-serif;
     font-size: 14px;
-    color:#000;
+    color: #000;
     margin: 0;
     padding: 0;
 }
 .swiper-container {
     width: 100%;
-    padding-top: 250px;
+    padding-top: 120px;
     padding-bottom: 50px;
 }
 
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
 }
 
-.info h5{
+.info h5 {
     margin: 0;
     padding-top: 15px;
     position: absolute;
@@ -34,8 +38,14 @@ body {
     display: block;
 }
 
-.info span{
+.info span {
     font-size: 15px;
     color: red;
     font-weight: bold;
+}
+.estiloImagen {
+    height: 450px;
+}
+.estiloContenedor {
+    margin-top: -100px;
 }

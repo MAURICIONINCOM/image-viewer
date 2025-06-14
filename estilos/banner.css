@@ -13,8 +13,8 @@
 }
 
 .banner-logo {
-    width: 120px;
-    height: 120px;
+    width: 90px;
+    height: auto;
     object-fit: cover;
     border-radius: 50%;         /* Hace el borde completamente redondo */
     border: 3px solid #a10000;  /* Borde rojo oscuro */
