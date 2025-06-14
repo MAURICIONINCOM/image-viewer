@@ -46,7 +46,7 @@
 @media (max-width: 320px) {
     .banner-title {
         font-size: 0.9rem; /* más pequeño aún */
-        max-width: 240px; /* asegura que no se pase del ancho total */
+        max-width: 180px; /* asegura que no se pase del ancho total */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -66,8 +66,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 6px; /* menor separación */
-        padding: 6px 8px;
+        gap: 0px; /* menor separación */
+        padding: 0px;
         flex-wrap: nowrap;
         overflow: hidden; /* evita desbordes visuales */
     }
