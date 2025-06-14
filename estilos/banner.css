@@ -60,7 +60,7 @@
     }
 
     .swiper-slide {
-        width: 90vw;
+        width: 100vw;
         height: 250px;
         max-width: 400px;
         max-height: 400px;
@@ -71,7 +71,7 @@
     }
 
     .swiper-container {
-        padding-top: 100px;
+        padding-top: 120px;
         padding-bottom: 30px;
     }
 }
