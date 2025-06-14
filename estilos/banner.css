@@ -45,17 +45,27 @@
 
 @media (max-width: 320px) {
     .banner-title {
-        font-size: 0.9rem;
-        text-align: center;
+        font-size: 1rem; /* Letra más pequeña */
+        white-space: nowrap; /* ❗️ No se divide en dos líneas */
+        overflow: hidden; /* Oculta texto que no entra */
+        text-overflow: ellipsis; /* Agrega "..." si se recorta */
+        max-width: 200px; /* Ajusta para que no desborde */
     }
 
     .banner-logo {
-        width: 30px;
+        width: 40px; /* Más pequeño */
+        height: auto;
+        flex-shrink: 0; /* No se reduce más */
     }
 
     .info-banner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
         padding: 0px;
-        gap: 5px;
+        flex-wrap: nowrap; /* ❗️ Mantiene en una sola línea */
     }
 
     .swiper-slide {
