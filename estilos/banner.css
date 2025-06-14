@@ -45,17 +45,20 @@
 
 @media (max-width: 320px) {
     .banner-title {
-        font-size: 1rem; /* Letra más pequeña */
-        white-space: nowrap; /* ❗️ No se divide en dos líneas */
-        overflow: hidden; /* Oculta texto que no entra */
-        text-overflow: ellipsis; /* Agrega "..." si se recorta */
-        max-width: 200px; /* Ajusta para que no desborde */
+        font-size: 0.9rem; /* más pequeño aún */
+        max-width: 240px; /* asegura que no se pase del ancho total */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        flex: 1;
+        min-width: 0; /* requerido para que ellipsis funcione en flexbox */
+        line-height: 1; /* más compacto */
     }
 
     .banner-logo {
-        width: 40px; /* Más pequeño */
+        width: 35px; /* pequeño pero visible */
         height: auto;
-        flex-shrink: 0; /* No se reduce más */
+        flex-shrink: 0; /* evita que el logo se encoja más */
     }
 
     .info-banner {
@@ -63,9 +66,10 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 3px;
-        padding: 0px;
-        flex-wrap: nowrap; /* ❗️ Mantiene en una sola línea */
+        gap: 6px; /* menor separación */
+        padding: 6px 8px;
+        flex-wrap: nowrap;
+        overflow: hidden; /* evita desbordes visuales */
     }
 
     .swiper-slide {
