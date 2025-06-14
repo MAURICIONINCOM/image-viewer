@@ -43,7 +43,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .banner-title {
         font-size: 1.5rem;
         text-align: center;
@@ -75,9 +75,4 @@
         padding-bottom: 30px;
     }
 }
-@media (max-width: 768px) {
-    .info-banner {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
